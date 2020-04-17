@@ -27,4 +27,5 @@ fields:
     max: 1
 pages:
 - content/cocktails/amaretto-sour.md
+- content/cocktails/daiquiri.md
 - content/cocktails/french-75.md
