@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+        with: submodules
 
       - name: Download Hugo
         run: sudo wget https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.deb
