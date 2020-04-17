@@ -14,3 +14,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- content/cocktails/french-75.md
