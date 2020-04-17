@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://recipes.hypersloth.io"
 title = "James' Recipes"
 theme = "hugo-notepadium"
-copyright = "@2020 James Royal."
+copyright = "@2020 James Royal"
 
 languageCode = "en"
 hasCJKLanguage = true
