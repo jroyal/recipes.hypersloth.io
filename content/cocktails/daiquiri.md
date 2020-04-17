@@ -1,7 +1,6 @@
 +++
 author = "James Royal"
 categories = ["cocktails"]
-draft = true
 tags = ["rum"]
 title = "Daiquiri"
 
