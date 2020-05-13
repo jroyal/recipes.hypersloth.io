@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<h1>
+  {{.Title}}
+</h1>
+<div class="recipe-main">
+  <div class="ingredients">
+    <h2>Ingredients</h2>
+    <ul>
+      {{ range .Params.Ingredients }}
+      <li>{{.}}</li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="instructions">
+    <h2>Instructions</h2>
+    <ol>
+      {{ range .Params.Instructions }}
+      <li>{{. | markdownify}}</li>
+      {{ end }}
+    </ol>
+  </div>
+</div>
+
+{{.Content}} {{end}}

@@ -1,0 +1,15 @@
+{{- define "main" -}}
+<h1>Welcome to my cookbook</h1>
+<p>
+  This is a basic collection of recipes that I like and wanted to be able to
+  have on the internet
+</p>
+
+<ul>
+  {{ range .Pages }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{- end -}}

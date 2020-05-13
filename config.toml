@@ -1,6 +1,6 @@
 baseURL = "https://recipes.hypersloth.io"
-title = "James' Recipes"
-theme = "hugo-notepadium"
+title = "James and Laurens Cookbook"
+theme = "cookbook"
 copyright = "@2020 James Royal"
 
 languageCode = "en"
@@ -22,7 +22,7 @@ unsafe = true  # enable raw HTML in Markdown
 style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
-slogan = "yay for good things"
+slogan = ""
 license = ""  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 
@@ -43,16 +43,12 @@ enable = false
 addThisId = ""
 inlineToolId = ""
 
-[params.nav]
-showCategories = false       # /categories/
-showTags = true             # /tags/
-
 # custom navigation items
 
 [[params.nav.custom]]
-title = "Cocktails"
-url = "/categories/cocktails"
+title = "Drinks"
+url = "/drinks"
 
 [[params.nav.custom]]
 title = "Food"
-url = "/categories/food"
+url = "/food"
